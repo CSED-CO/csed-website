@@ -43,6 +43,11 @@ section {
 }
 .event-time {
   color: #888;
+  margin-top: 10px;
+}
+.event-title {
+  color: #D63E3B;
+  margin-top: 10px; 
 }
 .event-description {
   font-size: 20px;
@@ -50,9 +55,6 @@ section {
 }
 .glyphicon-map-marker {
   padding-right: 8px;
-}
-.event-title {
-  color: #D63E3B;
 }
 
 footer {
