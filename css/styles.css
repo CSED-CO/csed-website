@@ -1,22 +1,54 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 header {
   margin-top: 30px;
   text-align: center;
   border-bottom: 1px solid #aaa;
 }
-
-.headline {
-  margin-bottom: 10px;
-}
-.sub-headline {
-  color: #aaa;
-  margin-top: 0;
-  padding-bottom: 15px;
-}
-
 .csed-logo {
   text-align: center;
 }
 
 .csed-logo img {
   height: 350px;
+}
+.headline {
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+.sub-headline {
+  color: #888;
+  margin-top: 0;
+  padding-bottom: 15px;
+  font-weight: 700;
+}
+
+section {
+  font-weight: 300;
+}
+.event-date {
+  font-weight: 700;
+}
+.event-time {
+  color: #888;
+}
+.event-description {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.glyphicon-map-marker {
+  padding-right: 8px;
+}
+.event-title {
+  color: #D63E3B;
+}
+
+footer {
+  text-align: right;
+  margin: 40px 0;
+}
+.gschool-logo {
+  height: 50px;
 }
