@@ -53,7 +53,17 @@ section {
 footer {
   text-align: right;
   margin: 40px 0;
+  position: relative;
+}
+.byline {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 50px;
+  vertical-align: middle;
 }
 .gschool-logo {
+  position: absolute;
+  bottom: 0;
+  top: 0;
   height: 50px;
 }
