@@ -1,9 +1,22 @@
-body {
-  /*padding-top: 25px;*/
+header {
+  margin-top: 30px;
+  text-align: center;
+  border-bottom: 1px solid #aaa;
 }
 
-
+.headline {
+  margin-bottom: 10px;
+}
+.sub-headline {
+  color: #aaa;
+  margin-top: 0;
+  padding-bottom: 15px;
+}
 
 .csed-logo {
   text-align: center;
+}
+
+.csed-logo img {
+  height: 350px;
 }
