@@ -51,8 +51,8 @@ section {
 }
 
 footer {
-  text-align: right;
-  margin: 40px 0;
+  text-align: center;
+  margin: 60px 0 40px;
   position: relative;
 }
 .byline {
@@ -60,10 +60,12 @@ footer {
   font-weight: 300;
   line-height: 50px;
   vertical-align: middle;
+  display: inline-block;
 }
 .gschool-logo {
   position: absolute;
   bottom: 0;
   top: 0;
   height: 50px;
+  display: inline-block;
 }
