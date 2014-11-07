@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -5,7 +9,6 @@ body {
 header {
   margin-top: 30px;
   text-align: center;
-  border-bottom: 1px solid #aaa;
 }
 .csed-logo {
   text-align: center;
@@ -26,8 +29,10 @@ header {
 .sub-headline {
   color: #888;
   margin-top: 0;
-  padding-bottom: 15px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
   font-weight: 700;
+  border-bottom: 1px solid #aaa;
 }
 
 section {
@@ -52,10 +57,17 @@ section {
 
 footer {
   text-align: center;
-  margin: 60px 0 40px;
+  margin: 40px 0 40px;
+  padding-top: 20px;
   position: relative;
+  border-top: 1px solid #888;
 }
 .byline {
+  display: inline-block;
+  margin: 0 auto;
+}
+.byline-text {
+  margin: 0;
   font-size: 24px;
   font-weight: 300;
   line-height: 50px;
@@ -63,9 +75,8 @@ footer {
   display: inline-block;
 }
 .gschool-logo {
-  position: absolute;
-  bottom: 0;
-  top: 0;
+  margin: 0;
+  padding: 0;
   height: 50px;
   display: inline-block;
 }
