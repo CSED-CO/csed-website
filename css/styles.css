@@ -14,6 +14,11 @@ header {
 .csed-logo img {
   height: 350px;
 }
+@media (max-width: 600px) {
+  .csed-logo img {
+    height: 275px;
+}
+}
 .headline {
   margin-bottom: 10px;
   font-weight: 900;
