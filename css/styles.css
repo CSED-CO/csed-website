@@ -29,10 +29,16 @@ header {
 .sub-headline {
   color: #888;
   margin-top: 0;
-  margin-bottom: 40px;
-  padding-bottom: 40px;
   font-weight: 700;
+  margin-bottom: 10px;
+}
+.slogan {
   border-bottom: 1px solid #aaa;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  /* font-weight: 300; */
+  color: #D63E3B;
 }
 
 section {
@@ -47,7 +53,7 @@ section {
 }
 .event-title {
   color: #D63E3B;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 .event-description {
   font-size: 20px;
@@ -58,15 +64,32 @@ section {
 }
 
 footer {
-  text-align: center;
   margin: 40px 0 40px;
   padding-top: 20px;
   position: relative;
   border-top: 1px solid #888;
 }
+.sponsor {
+  display: inline-block;
+}
+.sponsor-text{
+  margin: 0;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 50px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.zayo-logo {
+  position: relative;
+  top: 5px;
+  margin: 0;
+  padding-left: 5px;
+  height: 35px;
+  display: inline-block;
+}
 .byline {
   display: inline-block;
-  margin: 0 auto;
 }
 .byline-text {
   margin: 0;
