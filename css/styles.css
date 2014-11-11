@@ -101,7 +101,7 @@ footer {
   display: inline-block;
 }
 
-
+/* Media Queries */
 @media (max-width: 600px) {
   .csed-logo img {
     height: 275px;
