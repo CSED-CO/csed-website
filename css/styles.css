@@ -17,11 +17,7 @@ header {
 .csed-logo img {
   height: 350px;
 }
-@media (max-width: 600px) {
-  .csed-logo img {
-    height: 275px;
-}
-}
+
 .headline {
   margin-bottom: 10px;
   font-weight: 900;
@@ -37,7 +33,6 @@ header {
   margin-bottom: 40px;
   padding-bottom: 20px;
   margin-top: 0px;
-  /* font-weight: 300; */
   color: #D63E3B;
 }
 
@@ -104,4 +99,11 @@ footer {
   padding: 0;
   height: 50px;
   display: inline-block;
+}
+
+
+@media (max-width: 600px) {
+  .csed-logo img {
+    height: 275px;
+  }
 }
