@@ -47,12 +47,34 @@ section {
 }
 .section-header {
   font-weight: 700;
-  margin-bottom: 30px;
 }
-
-
+.sponsor-header {
+  margin-bottom: 40px;
+}
 .sponsor-logo {
   height: 50px;
+  margin-bottom: 40px;
+}
+.partners {
+  text-align: center;
+  border-top: 1px solid #aaa;
+  margin-top: 20px;
+  padding-top: 5px;
+}
+.partners-header {
+  margin-bottom: 0px;
+}
+.partner-logo {
+  margin: 0 15px;
+}
+.partner-logo-sm {
+  width: 120px;
+}
+.partner-logo-md {
+  width: 170px;
+}
+.partner-logo-lg {
+  width: 220px;
 }
 .event-date {
   font-weight: 700;
