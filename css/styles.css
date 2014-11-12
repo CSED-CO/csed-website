@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -15,7 +21,7 @@ header {
 }
 
 .csed-logo img {
-  height: 350px;
+  height: 300px;
 }
 
 .headline {
@@ -38,6 +44,15 @@ header {
 
 section {
   font-weight: 300;
+}
+.section-header {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+
+.sponsor-logo {
+  height: 50px;
 }
 .event-date {
   font-weight: 700;
