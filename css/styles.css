@@ -79,6 +79,10 @@ section {
 .event-date {
   font-weight: 700;
 }
+.event-date small {
+  font-size: 28px;
+  color: #000;
+}
 .event-time {
   color: #888;
   margin-top: 10px;
