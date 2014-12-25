@@ -44,6 +44,16 @@ section {
 .section-header {
   font-weight: 700;
 }
+.summary {
+  margin-bottom: 20px;
+}
+.stat {
+  color: #D63E3B;
+}
+.events {
+  border-top: 1px solid #aaa;
+  margin-top: 40px;
+}
 .online-activities {
   border-top: 1px solid #888;
   margin-top: 40px;
