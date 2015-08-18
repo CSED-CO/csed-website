@@ -23,6 +23,7 @@ header {
 .headline {
   margin-bottom: 10px;
   font-weight: 900;
+  color: #137FBE;
 }
 .sub-headline {
   color: #888;
@@ -43,6 +44,8 @@ section {
 }
 .section-header {
   font-weight: 700;
+  color: #137FBE;
+  margin-top: 40px;
 }
 .summary {
   margin-bottom: 20px;
@@ -51,7 +54,7 @@ section {
   color: #D63E3B;
 }
 .events {
-  border-top: 1px solid #aaa;
+  /*border-top: 1px solid #aaa;*/
   margin-top: 40px;
 }
 .online-activities {
@@ -73,9 +76,10 @@ section {
 }
 .partners {
   text-align: center;
-  border-top: 1px solid #888;
-  margin-top: 40px;
+  /*border-top: 1px solid #888;*/
+  /*margin-top: 40px;*/
   padding-top: 5px;
+  margin-bottom: -30px;
 }
 .partners-header {
   margin-bottom: 0px;
@@ -124,10 +128,12 @@ section {
 }
 
 footer {
-  margin: 40px 0 20px;
-  padding-top: 20px;
+  /*margin: 40px 0 20px;*/
+  /*padding-top: 20px;*/
+  margin-bottom: 40px;
   position: relative;
-  border-top: 1px solid #888;
+  text-align: center;
+  /*border-top: 1px solid #888;*/
 }
 .sponsor {
   display: inline-block;
